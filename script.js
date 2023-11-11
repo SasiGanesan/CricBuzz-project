@@ -43,7 +43,7 @@ playerr.addEventListener("click", function(event) {
 const match = document.getElementById("matches");
 match.addEventListener("click", function (event) {
   event.preventDefault();
-
+playerr.style.display='none'
   fetch(`https://api.cricapi.com/v1/series_info?apikey=97f0ec33-ee23-46f1-bf9a-4a5d7c0e219a&id=bd830e89-3420-4df5-854d-82cfab3e1e04`)
     .then((res) => {
         return res.json()})
@@ -71,17 +71,51 @@ match.addEventListener("click", function (event) {
        // else{
            // console.log("error")
        // }
-        
       });
+    
     //});
+
+const point=document.getElementById("score")
+point.addEventListener("click", function (event) {
+  event.preventDefault();
+  fetch(`https://api.cricapi.com/v1/match_points?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=54eab4d0-6972-4d55-aa65-5278525ababa&ruleset=0`)
+.then((resp)=>{
+  return resp.json()})
+.then((datap)=>{
+  console.log(datap)})
+
+const pointtable=datap.data.points
+console.log(pointtable)
+ var pointss='';
+ pointtable.forEach((pointt)=>{
+  pointss+=
+  `
+  <table border='1' class='point-table'>score
+  <th class='th'><td> Name</td><td>{pointt.name}</td></th>
+  <tr class='tr'><td> Points</td><td>{pointt.points}</td><tr>
+  </table>
+  `
+ });
+document.querySelector('#display-points').innerHTML=pointss
+});
+
+
+
+
+
+
+
+
+
+
   //`https://api.cricapi.com/v1/match_squad?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=3569487d-0f89-469d-9c4f-f81101246f2e
   // Eng-player.json 
 //https://api.cricapi.com/v1/series_squad?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=e3bd2125-82e2-4841-a097-c681d46c7a60
 //./playerr.json
 //series matches
 //`https://api.cricapi.com/v1/series_info?apikey=97f0ec33-ee23-46f1-bf9a-4a5d7c0e219a&id=bd830e89-3420-4df5-854d-82cfab3e1e04`
-
-
+//points table api
+//https://api.cricapi.com/v1/match_points?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=54eab4d0-6972-4d55-aa65-5278525ababa&ruleset=0
 /*
 //points table
 const pointsAPI = "points.json";
