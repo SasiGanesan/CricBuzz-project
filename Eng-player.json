@@ -1,0 +1,297 @@
+{
+  "apikey": "b17275a2-4770-4799-b626-2f1dc6cc1b13",
+  "data": [
+    {
+      "teamName": "England",
+      "shortname": "ENG",
+      "img": "https://g.cricapi.com/iapi/23-637877072894080569.webp?w=48",
+      "players": [
+        {
+          "id": "46f42ff2-6167-4b13-9e47-030ad9e5bfaf",
+          "name": "Chris Woakes",
+          "role": "Bowling Allrounder",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast-medium",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/46f42ff2-6167-4b13-9e47-030ad9e5bfaf.jpg"
+        },
+        {
+          "id": "180036fe-fcb5-4fcf-ba8a-28bb2b750cc6",
+          "name": "Ben Duckett",
+          "role": "Batsman",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/180036fe-fcb5-4fcf-ba8a-28bb2b750cc6.jpg"
+        },
+        {
+          "id": "2a2c430b-c0dc-4154-a63f-32ffe8ef02fb",
+          "name": "Jason Roy",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/2a2c430b-c0dc-4154-a63f-32ffe8ef02fb.jpg"
+        },
+        {
+          "id": "19758cd7-4cce-47d8-b1fe-5975609de802",
+          "name": "Jofra Archer",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/19758cd7-4cce-47d8-b1fe-5975609de802.jpg"
+        },
+        {
+          "id": "87e87390-b14f-455b-8526-5eaa19735aed",
+          "name": "Harry Brook",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm medium",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/87e87390-b14f-455b-8526-5eaa19735aed.jpg"
+        },
+        {
+          "id": "9f06f450-c300-4b49-9359-7876f492f686",
+          "name": "Moeen Ali",
+          "role": "Batting Allrounder",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/9f06f450-c300-4b49-9359-7876f492f686.jpg"
+        },
+        {
+          "id": "27636f55-a71a-4b43-978d-794a05cb6874",
+          "name": "Olly Stone",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/27636f55-a71a-4b43-978d-794a05cb6874.jpg"
+        },
+        {
+          "id": "54e5a9b9-9b8d-460c-bf6e-8488f0e229f8",
+          "name": "David Willey",
+          "role": "Bowling Allrounder",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Left-arm fast-medium",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/54e5a9b9-9b8d-460c-bf6e-8488f0e229f8.jpg"
+        },
+        {
+          "id": "7e9dc8b1-c44c-44f1-8663-cc42bad7709b",
+          "name": "Reece Topley",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Left-arm fast-medium",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/7e9dc8b1-c44c-44f1-8663-cc42bad7709b.jpg"
+        },
+        {
+          "id": "0ec8da92-1980-4a0e-9059-d0c4d3947ab8",
+          "name": "Dawid Malan",
+          "role": "Batsman",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Right-arm legbreak",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/0ec8da92-1980-4a0e-9059-d0c4d3947ab8.jpg"
+        },
+        {
+          "id": "45613012-5c4f-4a7a-a1c4-d9827939b2bf",
+          "name": "Sam Curran",
+          "role": "Bowling Allrounder",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Left-arm fast-medium",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/45613012-5c4f-4a7a-a1c4-d9827939b2bf.jpg"
+        },
+        {
+          "id": "6db25d60-ff96-4d8d-8d22-dedeeb5ffa29",
+          "name": "Philip Salt",
+          "role": "WK-Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/icon512.png"
+        },
+        {
+          "id": "7567e305-1b40-4eee-9290-e2fcb8804496",
+          "name": "Jos Buttler",
+          "role": "WK-Batsman",
+          "battingStyle": "Right Handed Bat",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/7567e305-1b40-4eee-9290-e2fcb8804496.jpg"
+        },
+        {
+          "id": "a2e40330-ea26-4ad7-a21d-f27a00ba3228",
+          "name": "Adil Rashid",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm legbreak",
+          "country": "England",
+          "playerImg": "https://h.cricapi.com/img/players/a2e40330-ea26-4ad7-a21d-f27a00ba3228.jpg"
+        }
+      ]
+    },
+    {
+      "teamName": "South Africa",
+      "shortname": "RSA",
+      "img": "https://g.cricapi.com/iapi/82-637877071839088912.webp?w=48",
+      "players": [
+        {
+          "id": "7d662361-8f12-4a52-9a4b-01e8734bd31d",
+          "name": "Heinrich Klaasen",
+          "role": "WK-Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/7d662361-8f12-4a52-9a4b-01e8734bd31d.jpg"
+        },
+        {
+          "id": "15c1b556-a5b4-4cad-94da-0417c74b6918",
+          "name": "Tabraiz Shamsi",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Left-arm chinaman",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/15c1b556-a5b4-4cad-94da-0417c74b6918.jpg"
+        },
+        {
+          "id": "d3c53885-7016-4228-8a20-1dd98214489d",
+          "name": "Marco Jansen",
+          "role": "Bowling Allrounder",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Left-arm fast",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/d3c53885-7016-4228-8a20-1dd98214489d.jpg"
+        },
+        {
+          "id": "a81da20a-e420-476a-baf6-204fc219dbdd",
+          "name": "Kagiso Rabada",
+          "role": "Bowler",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/a81da20a-e420-476a-baf6-204fc219dbdd.jpg"
+        },
+        {
+          "id": "78a7b552-3493-4e81-8421-20de6dc92d8f",
+          "name": "Janneman Malan",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm legbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/78a7b552-3493-4e81-8421-20de6dc92d8f.jpg"
+        },
+        {
+          "id": "943c1332-8845-460b-93c9-3714d97f8788",
+          "name": "Reeza Hendricks",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/943c1332-8845-460b-93c9-3714d97f8788.jpg"
+        },
+        {
+          "id": "97e9fec3-81bd-4018-a803-422c7d6d53aa",
+          "name": "Keshav Maharaj",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Left-arm orthodox",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/97e9fec3-81bd-4018-a803-422c7d6d53aa.jpg"
+        },
+        {
+          "id": "3fef81b0-c1e9-45eb-954f-519f3b33d640",
+          "name": "Aiden Markram",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/3fef81b0-c1e9-45eb-954f-519f3b33d640.jpg"
+        },
+        {
+          "id": "a1782393-3479-4caa-9c27-79cb87df9abc",
+          "name": "Lungi Ngidi",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/a1782393-3479-4caa-9c27-79cb87df9abc.jpg"
+        },
+        {
+          "id": "5e50b708-1d0f-422f-80d5-84aaa99b2d9c",
+          "name": "Temba Bavuma",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm medium",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/5e50b708-1d0f-422f-80d5-84aaa99b2d9c.jpg"
+        },
+        {
+          "id": "a8c7ce67-5862-4acb-9297-97eafd0ea3d5",
+          "name": "Anrich Nortje",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/a8c7ce67-5862-4acb-9297-97eafd0ea3d5.jpg"
+        },
+        {
+          "id": "c66b36de-72b1-4022-b387-99d0ec79fb49",
+          "name": "Sisanda Magala",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast-medium",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/c66b36de-72b1-4022-b387-99d0ec79fb49.jpg"
+        },
+        {
+          "id": "000f9f7c-cc24-4a85-8638-b013b0f4760e",
+          "name": "Quinton de Kock",
+          "role": "WK-Batsman",
+          "battingStyle": "Left Handed Bat",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/000f9f7c-cc24-4a85-8638-b013b0f4760e.jpg"
+        },
+        {
+          "id": "2f50df2f-809d-44f9-b5be-ccb846515861",
+          "name": "David Miller",
+          "role": "Batsman",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Right-arm offbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/2f50df2f-809d-44f9-b5be-ccb846515861.jpg"
+        },
+        {
+          "id": "4952c32d-ffb2-4070-bc15-ceb3989c229b",
+          "name": "Rassie van der Dussen",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm legbreak",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/4952c32d-ffb2-4070-bc15-ceb3989c229b.jpg"
+        },
+        {
+          "id": "6efb08ed-3316-40db-ad25-d8992fdf1a87",
+          "name": "Wayne Parnell",
+          "role": "Bowler",
+          "battingStyle": "Left Handed Bat",
+          "bowlingStyle": "Left-arm fast-medium",
+          "country": "South Africa",
+          "playerImg": "https://h.cricapi.com/img/players/6efb08ed-3316-40db-ad25-d8992fdf1a87.jpg"
+        }
+      ]
+    }
+  ],
+  "status": "success",
+  "info": {
+    "hitsToday": 10,
+    "hitsUsed": 10,
+    "hitsLimit": 100,
+    "credits": 0,
+    "server": 2,
+    "queryTime": 25.9446,
+    "s": 0,
+    "cache": 0
+  }
+}
