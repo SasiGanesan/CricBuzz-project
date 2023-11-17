@@ -1,11 +1,11 @@
-//const play='playerr.json'
+//display player details
 const playerr = document.getElementById("playerr");
 playerr.addEventListener("click", function (event) {
   event.preventDefault();
   const matchd = (document.querySelector("#display-match").style.display =
     "none");
   const team = (document.querySelector(".team-mem").style.display = "flex");
-  //match.style.display='none'
+  var pointss = document.querySelector(".dis-point").style.display='none'
   //fetch(`https://api.cricapi.com/v1/match_squad?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=3569487d-0f89-469d-9c4f-f81101246f2e`)
   fetch("./Eng-player.json")
     .then((response) => {
@@ -13,11 +13,8 @@ playerr.addEventListener("click", function (event) {
     })
     .then((data) => {
       console.log(data);
-      //const Team = data.data.find((team) => team.teamName === "South Africa");
-      //const a=JSON.stringify(data.squad);
       let a = data.data[0].players;
       console.log(a);
-      //if (data.a =="success") {
       var data1 = "";
       a.forEach((player) => {
         data1 += `  
@@ -28,19 +25,17 @@ playerr.addEventListener("click", function (event) {
           alt="logo" id="playerImg" 
         />
         
-        <h1 class="playername">Name: ${player.name}</h1>
-        <p class="role">Role: ${player.role}</p>
-        <p class="battingStyle">BattingStyle: ${player.battingStyle}</p>
-        <p class="bowlingStyle">BowlingStyle: ${player.bowlingStyle}</p>
-        <p class="country">Country: ${player.country}</p>
+        <h1 id="playername">Name: ${player.name}</h1>
+        <p id="role">Role: ${player.role}</p>
+        <p id="battingStyle">BattingStyle: ${player.battingStyle}</p>
+        <p id="bowlingStyle">BowlingStyle: ${player.bowlingStyle}</p>
+        <p id="country">Country: ${player.country}</p>
       </div>`;
       });
       document.querySelector(".team-mem").innerHTML = data1;
-    }); // else {
-  // console.log("no player avaiable");
-  // }
+    }); 
 });
-//});
+
 
 //fetch match details
 const match = document.getElementById("matches");
@@ -49,7 +44,7 @@ match.addEventListener("click", function (event) {
   const team = (document.querySelector(".team-mem").style.display = "none");
   const matchd = (document.querySelector("#display-match").style.display =
     "block");
-  //playerr.data1.style.display = "none";
+    var pointss = document.querySelector(".dis-point").style.display='none'
   // fetch(`https://api.cricapi.com/v1/series_info?apikey=97f0ec33-ee23-46f1-bf9a-4a5d7c0e219a&id=bd830e89-3420-4df5-854d-82cfab3e1e04`)
   fetch("./players.json")
     .then((res) => {
@@ -67,26 +62,21 @@ match.addEventListener("click", function (event) {
         // match1.filter(match1.teams='England');
         //if (match1.teams[0] || match1.teams[1] === "England")
         data2 += `
-                <div class="match">
-        <h2 class="name">${match1.name}</h2>
-        <p class="status">Status: ${match1.status}</p>
-        <p class="venue">Venue: ${match1.venue}</p>
-        <p class="date">Date: ${match1.date}</p> 
-        <p class="teams">Teams: ${match1.teams}</p>
+                <div id="match">
+        <h2 id="name">${match1.name}</h2>
+        <p id="status">Status: ${match1.status}</p>
+        <p id="venue">Venue: ${match1.venue}</p>
+        <p id="date">Date: ${match1.date}</p> 
+        <p id="teams">Teams: ${match1.teams}</p>
       </div>
       `;
-        // }
       });
 
       document.querySelector("#display-match").innerHTML = data2;
     });
-  //<p class="dateTime">DateTime: ${match1.datetimeGMT}</p>
-  // else{
-  // console.log("error")
-  // }
+ 
 });
 
-//});
 
 //fetch points table
 const point = document.getElementById("score");
@@ -95,68 +85,67 @@ const point = document.getElementById("score");
 point.addEventListener("click", function (event) {
   event.preventDefault();
   const team = (document.querySelector(".team-mem").style.display = "none");
-  const matchd = (document.querySelector("#display-match").style.display = "none");
-  //pointss.style.display='block'
+  const matchd = (document.querySelector("#display-match").style.display =
+    "none");
+    var pointss = document.querySelector(".dis-point").style.display='table'
   // fetch(
   // `https://api.cricapi.com/v1/match_points?apikey=b17275a2-4770-4799-b626-2f1dc6cc1b13&id=54eab4d0-6972-4d55-aa65-5278525ababa&ruleset=0`//eng
   // )
   //fetch(`https://api.cricapi.com/v1/match_scorecard?apikey=97f0ec33-ee23-46f1-bf9a-4a5d7c0e219a&id=3569487d-0f89-469d-9c4f-f81101246f2e`) //eng  vs south frica
-  fetch("./scorecard.json")
+  fetch("./score.json")
     .then((resp) => {
       return resp.json();
     })
     .then((datap) => {
       console.log(datap);
 
-      const pointtable = datap.data.score[0];
+      const pointtable = datap.data;
       console.log(pointtable);
 
-      //var pointss = document.getElementById("point-table");
-      var pointss = "";
-      pointtable.forEach((pointt) => {
-        
-        pointss = `
-       <table class='dis-point table-bordered'>
-       <tr>
-          <th><td>Inning</td> <td>${pointt.inning}</td></th></tr>
-          <tr><td>o</td><td>${pointt.o}</td></tr>
-          <tr><td>r</td><td>${pointt.r}</td></tr>
-          <tr><td>w</td><td>${pointt.w}</td></tr>
+      var pointss = document.querySelector(".dis-point");
+      //var pointss = "";
       
-      <table>
-      `;
-      
-      /*
+      pointtable.map((pointt) => {
+       
         const row1 = document.createElement("tr");
 
         const namecell = document.createElement("td");
-        namecell.textContent = pointt.inning;
+        namecell.textContent = pointt.teamname;
         row1.appendChild(namecell);
 
-        const innicell = document.createElement("td");
-        innicell.textContent = pointt.o;
-        row1.appendChild(innicell);
+        const flagcell = document.createElement("td");
+        const flagimg = document.createElement("img")
+        flagimg.src=pointt.img
+        flagcell.appendChild(flagimg)
+        row1.appendChild(flagcell)
 
-        const ocell = document.createElement("td");
-        ocell.textContent = pointt.o;
-        row1.appendChild(ocell);
+        const matchcell = document.createElement("td");
+        matchcell.textContent = pointt.matches;
+        row1.appendChild(matchcell);
 
-        const wcell = document.createElement("td");
-        wcell.textContent = pointt.o;
-        row1.appendChild(wcell);
+        const wincell = document.createElement("td");
+        wincell.textContent = pointt.wins;
+        row1.appendChild(wincell);
 
-        //const row2 = document.createElement("tr");
+        const losscell = document.createElement("td");
+        losscell.textContent = pointt.loss;
+        row1.appendChild(losscell);
 
-        //const pointscell = document.createElement("td");
-        //pointscell.textContent = pointt.bowling;
-        //row2.appendChild(pointscell);
+        const tiescell = document.createElement("td");
+        tiescell.textContent = pointt.ties;
+        row1.appendChild(tiescell);
 
         pointss.appendChild(row1);
-        //pointss.appendChild(row2);
+        /*
+       <th>Country</th><th>flag</th><th>Matches</th><th>Wins</th><th>Loss</th><th>Ties</th></tr>
+        <table class='dis-point table-bordered'>
+       <tr>
+          <tr><td>${pointt.teamname}</br>${pointt.shortname}</td><td><img id='point-img' src='${pointt.img}'></td><td>${pointt.matches}</td><td>${pointt.wins}</td><td>${pointt.loss}</td><td>${pointt.ties}</td></tr>
+      <table>
         */
-     });
+      });
 
-      document.querySelector("#point-table").innerHTML = pointss;
+     // document.querySelector("#point-table").innerHTML = pointss;
     });
 });
 
